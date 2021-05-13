@@ -1,0 +1,44 @@
+body {
+    font-family: bodoni, serif;
+    background-color: lightblue;
+  }
+
+ 
+.header{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    border-style: double; 
+}
+.menu{
+    background-color: lightcoral;
+    border-style:dashed;
+    
+}
+a:visited{
+    color: lawngreen;
+}
+
+.item{
+    display: flex;
+    flex-grow: 100;
+    flex-direction: column;
+    align-content: stretch;
+
+    
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    opacity: 1;
+}
+.img-container{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+h2,h3,ul{
+    text-align: center;
+}
